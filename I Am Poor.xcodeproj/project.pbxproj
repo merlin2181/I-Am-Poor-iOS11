@@ -12,6 +12,7 @@
 		63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */; };
 		63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */; };
 		63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A31D6DD3EF000AB4B6 /* LaunchScreen.storyboard */; };
+		D7BDE7021FEE0E1F0076F09C /* sadface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7BDE7011FEE0E1F0076F09C /* sadface.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63DE37A41D6DD3EF000AB4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63DE37A61D6DD3EF000AB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BDE7011FEE0E1F0076F09C /* sadface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sadface.jpg; path = Assets.xcassets/sadface.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				63DE379C1D6DD3EF000AB4B6 /* ViewController.swift */,
 				63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */,
 				63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */,
+				D7BDE7011FEE0E1F0076F09C /* sadface.jpg */,
 				63DE37A31D6DD3EF000AB4B6 /* LaunchScreen.storyboard */,
 				63DE37A61D6DD3EF000AB4B6 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5Y94H2BZYK;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -124,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */,
+				D7BDE7021FEE0E1F0076F09C /* sadface.jpg in Resources */,
 				63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */,
 				63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */,
 			);
@@ -272,9 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y94H2BZYK;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -285,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y94H2BZYK;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
